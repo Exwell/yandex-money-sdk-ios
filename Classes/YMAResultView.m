@@ -85,7 +85,7 @@ static CGFloat const kAnimationSpeed = 0.7;
         amountLabel.text = YMALocalizedString(errorText, nil);
     } else {
         titleLabel.text = YMALocalizedString(@"TLThanks", nil);
-        amountLabel.text = [NSString stringWithFormat:YMALocalizedString(@"TLAmount", nil), self.description];
+        amountLabel.text = [NSString stringWithFormat:YMALocalizedString(@"TLAmount", nil), self.resultDescription];
     }
 
     [self addSubview:amountLabel];
